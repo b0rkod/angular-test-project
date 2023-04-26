@@ -11,7 +11,7 @@ export class AppComponent {
   public number = 0;
 
   someSimpleFunction() {
-    this.number += 1;
+    this.number = this.number + 1;
     console.log(this.number);
   }
 }
